@@ -4,11 +4,13 @@
 
 [![CI](https://github.com/dsr2812/DEDprotocol-public/actions/workflows/ci.yml/badge.svg)](https://github.com/dsr2812/DEDprotocol-public/actions/workflows/ci.yml)
 
-> **Status:** public snapshot `v1.0.0` — a theoretical/computational technical report draft.
-> Not peer reviewed. No clinical efficacy, safety, or device claim.
+> **Status:** code snapshot `v1.0.0`; paper revision `v2.0.0`. Theoretical/computational
+> technical report. Not peer reviewed. No clinical efficacy, safety, or device claim.
 >
-> **Paper DOI:** [10.5281/zenodo.23897845](https://doi.org/10.5281/zenodo.23897845) ·
-> [Zenodo record](https://zenodo.org/records/23897845)
+> **Latest paper (v2.0.0):** [From Bioelectric State to a Falsifiable AC Impedance Pre-Test](manuscript/technical_report_v2.md)
+> · [DOI](https://doi.org/10.5281/zenodo.23897845) (concept DOI; resolves to the latest version)
+>
+> **Previous version (v1.0.0):** [technical_report_draft.md](manuscript/technical_report_draft.md)
 
 A computational heuristic for modelling topological defect patterns in malignant
 tissue matrices and generating candidate corrective payload specifications. The

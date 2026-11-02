@@ -2,6 +2,9 @@
 
 **Status:** technical report draft (outline), not peer reviewed. Not a clinical or device claim.
 
+**Latest paper:** v2.0.0 — [`manuscript/technical_report_v2.md`](../manuscript/technical_report_v2.md).
+This file is the v1.0.0 posting metadata, retained for the record.
+
 ## Title
 
 **Bioelectric Depolarization as a Topological Defect: A Zero-Free Sparse-Polynomial Engine for

@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
-title: "Bioelectric Depolarization as a Topological Defect: A Zero-Free Sparse-Polynomial Engine for Candidate Bioelectromagnetic Field Synthesis"
-abstract: "A deterministic computational framework that maps membrane potential and boundary fractal dimension to a candidate bioelectromagnetic stimulus specification, with a pre-registration draft for an in vitro specificity protocol. Theoretical/computational only; no clinical efficacy claim."
+title: "From Bioelectric State to a Falsifiable AC Impedance Pre-Test: A Technical Report on a Candidate Bioelectromagnetic Specification Generator"
+abstract: "A technical report on a deterministic specification generator that maps resting membrane potential and boundary fractal dimension to a candidate bioelectromagnetic stimulus specification, with a proposed in vitro AC impedance pre-test. Not a scientific paper; no mechanism is claimed, and no clinical efficacy, safety, or validated-device claim is made."
 authors:
   - family-names: Doyle
     given-names: Daniel
     affiliation: "Independent Researcher"
 date-released: 2026-11-02
-version: "1.0.0"
+version: "2.0.0"
 doi: "10.5281/zenodo.23897845"
 # Code license: MIT. Manuscript and docs: CC BY 4.0 (see LICENSE-docs).
 license: MIT
@@ -15,10 +15,10 @@ repository-code: "https://github.com/dsr2812/DEDprotocol-public"
 url: "https://github.com/dsr2812/DEDprotocol-public"
 keywords:
   - bioelectricity
-  - topological defects
-  - zero-free arithmetic
-  - base-38
   - membrane potential
   - bioelectromagnetic field
+  - AC impedance
+  - falsifiability
+  - technical report
   - pre-registration draft
   - reproducibility
