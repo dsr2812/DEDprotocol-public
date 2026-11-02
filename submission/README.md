@@ -4,10 +4,11 @@ This folder is for posting the DEDprotocol **technical report draft** and the pr
 impedance pre-test. It is the public posting snapshot of the `v1.0.0` engine release. This
 package is documentation, not a new engine version.
 
-**Published DOI (concept, latest version):** **10.5281/zenodo.23897845** —
-<https://doi.org/10.5281/zenodo.23897845>
+**Concept DOI:** **10.5281/zenodo.23897844** — <https://doi.org/10.5281/zenodo.23897844>
 
-**Latest paper:** v2.0.0 — [`../manuscript/technical_report_v2.md`](../manuscript/technical_report_v2.md).
+**Latest paper (v2.0.0):** [`../manuscript/technical_report_v2.md`](../manuscript/technical_report_v2.md)
+— **10.5281/zenodo.23898046** — <https://doi.org/10.5281/zenodo.23898046>
+
 This kit was used for the v1.0.0 posting.
 
 ## Files

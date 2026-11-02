@@ -8,7 +8,7 @@ authors:
     affiliation: "Independent Researcher"
 date-released: 2026-11-02
 version: "2.0.0"
-doi: "10.5281/zenodo.23897845"
+doi: "10.5281/zenodo.23898046"
 # Code license: MIT. Manuscript and docs: CC BY 4.0 (see LICENSE-docs).
 license: MIT
 repository-code: "https://github.com/dsr2812/DEDprotocol-public"

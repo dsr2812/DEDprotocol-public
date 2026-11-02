@@ -1,8 +1,10 @@
 # Public release note — v1.0.0
 
-**Paper DOI (concept, latest version):** [10.5281/zenodo.23897845](https://doi.org/10.5281/zenodo.23897845)
+**Latest paper (v2.0.0):** [10.5281/zenodo.23898046](https://doi.org/10.5281/zenodo.23898046)
 
-**Latest paper:** v2.0.0 — [`manuscript/technical_report_v2.md`](manuscript/technical_report_v2.md).
+**Concept DOI:** [10.5281/zenodo.23897844](https://doi.org/10.5281/zenodo.23897844)
+
+**Latest paper file:** [`manuscript/technical_report_v2.md`](manuscript/technical_report_v2.md).
 
 This directory is a **clean public snapshot**. It contains the technical report draft, the Rust
 engine, the CLI, the public docs, the in vitro pre-registration draft, and the posting kit. The

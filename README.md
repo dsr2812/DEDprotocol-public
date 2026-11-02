@@ -8,9 +8,12 @@
 > technical report. Not peer reviewed. No clinical efficacy, safety, or device claim.
 >
 > **Latest paper (v2.0.0):** [From Bioelectric State to a Falsifiable AC Impedance Pre-Test](manuscript/technical_report_v2.md)
-> · [DOI](https://doi.org/10.5281/zenodo.23897845) (concept DOI; resolves to the latest version)
+> · [DOI](https://doi.org/10.5281/zenodo.23898046)
+> · [Concept DOI](https://doi.org/10.5281/zenodo.23897844)
+> · [Zenodo record](https://zenodo.org/records/23898046)
 >
 > **Previous version (v1.0.0):** [technical_report_draft.md](manuscript/technical_report_draft.md)
+> · [DOI](https://doi.org/10.5281/zenodo.23897845)
 
 A computational heuristic for modelling topological defect patterns in malignant
 tissue matrices and generating candidate corrective payload specifications. The

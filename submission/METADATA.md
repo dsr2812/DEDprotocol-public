@@ -24,7 +24,9 @@ Engine: `v1.0.0` (public snapshot). This submission package is posting documenta
 
 ## DOI
 
-Paper: **10.5281/zenodo.23897845** — <https://doi.org/10.5281/zenodo.23897845>
+Paper v2: **10.5281/zenodo.23898046** — <https://doi.org/10.5281/zenodo.23898046>
+
+Concept DOI: **10.5281/zenodo.23897844** — <https://doi.org/10.5281/zenodo.23897844>
 
 ## License
 
