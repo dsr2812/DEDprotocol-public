@@ -1,0 +1,19 @@
+[package]
+name = "ded_ark_engine"
+version = "1.0.0"
+edition = "2021"
+description = "Theoretical zero-free variant of base-38 and DED resonance simulation engine (Rust core, PyO3 bridge, CLI)."
+license = "MIT"
+
+[lib]
+name = "ded_ark_engine"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "ded_ark_cli"
+path = "src/main.rs"
+
+[dependencies]
+pyo3 = { version = "0.23", features = ["extension-module"] }
+csv = "1.3"

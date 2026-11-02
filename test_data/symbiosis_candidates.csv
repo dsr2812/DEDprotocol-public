@@ -1,0 +1,4 @@
+organism,stage,continuous_score,target_frequency_hz
+Demo organism A,Stage 1,0.42,144.0
+Demo organism B,Stage 2,0.67,456.0
+Demo organism C,Stage 3,0.31,39.0

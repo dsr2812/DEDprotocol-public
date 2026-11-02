@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rust-kernel:
+    name: Rust kernel — zero-free base-38
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11 (PyO3)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: cargo test (release)
+        working-directory: rust
+        env:
+          PYO3_PYTHON: python3
+        run: cargo test --release
+
+      - name: CLI smoke
+        working-directory: rust
+        env:
+          PYO3_PYTHON: python3
+        run: |
+          cargo build --release
+          ./target/release/ded_ark_cli --help | grep -q 'usage:'
+          ./target/release/ded_ark_cli --version | grep -q '1.0.0'
+
+  secret-scan:
+    name: Secret scan — public snapshot
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Forbidden files
+        run: |
+          set -e
+          found=0
+          while IFS= read -r f; do
+            echo "forbidden file: $f"
+            found=1
+          done < <(find . -type f \( -name '.env' -o -name '*.pem' -o -name '*.key' \
+            -o -name '*.p12' -o -name '*.pfx' -o -name 'id_rsa' -o -name 'id_ed25519' \) \
+            -not -path './.git/*')
+          test "$found" -eq 0
+
+      - name: High-confidence token patterns
+        run: |
+          set -e
+          ! grep -RInE 'BEGIN (RSA|EC|OPENSSH|DSA|PGP) PRIVATE KEY|ghp_[A-Za-z0-9]{36}|gho_[A-Za-z0-9]{36}|sk-[A-Za-z0-9]{20,}|xox[baprs]-[A-Za-z0-9-]{10,}|AKIA[0-9A-Z]{16}' \
+            --exclude-dir=.git --exclude-dir=target --exclude-dir=.github .
