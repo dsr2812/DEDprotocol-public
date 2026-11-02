@@ -19,6 +19,10 @@ Daniel Doyle — Independent Researcher
 
 Engine: `v1.0.0` (public snapshot). This submission package is posting documentation.
 
+## DOI
+
+Paper: **10.5281/zenodo.23897845** — <https://doi.org/10.5281/zenodo.23897845>
+
 ## License
 
 - Manuscript and docs: **CC BY 4.0** — see [`LICENSE-docs`](../LICENSE-docs)

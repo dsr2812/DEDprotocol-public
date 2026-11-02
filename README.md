@@ -6,6 +6,9 @@
 
 > **Status:** public snapshot `v1.0.0` — a theoretical/computational technical report draft.
 > Not peer reviewed. No clinical efficacy, safety, or device claim.
+>
+> **Paper DOI:** [10.5281/zenodo.23897845](https://doi.org/10.5281/zenodo.23897845) ·
+> [Zenodo record](https://zenodo.org/records/23897845)
 
 A computational heuristic for modelling topological defect patterns in malignant
 tissue matrices and generating candidate corrective payload specifications. The

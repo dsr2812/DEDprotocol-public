@@ -1,5 +1,7 @@
 # Public release note — v1.0.0
 
+**Paper DOI:** [10.5281/zenodo.23897845](https://doi.org/10.5281/zenodo.23897845)
+
 This directory is a **clean public snapshot**. It contains the technical report draft, the Rust
 engine, the CLI, the public docs, the in vitro pre-registration draft, and the posting kit. The
 development history is not included.

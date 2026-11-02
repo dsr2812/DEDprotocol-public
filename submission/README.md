@@ -4,6 +4,8 @@ This folder is for posting the DEDprotocol **technical report draft** and the pr
 impedance pre-test. It is the public posting snapshot of the `v1.0.0` engine release. This
 package is documentation, not a new engine version.
 
+**Published DOI:** **10.5281/zenodo.23897845** — <https://doi.org/10.5281/zenodo.23897845>
+
 ## Files
 
 - `COVER_LETTER.md` — honest cover note for a lab or reader.
@@ -47,7 +49,7 @@ arXiv expects a full paper; this is an outline, so OSF is the better first home.
 - [ ] `technical_report.html` printed to PDF.
 - [ ] Title, author, abstract match `METADATA.md`.
 - [x] Email filled in `COVER_LETTER.md` and `METADATA.md`.
-- [ ] DOI added after publication.
+- [x] DOI added after publication: `10.5281/zenodo.23897845`.
 - [ ] No clinical efficacy, safety, or treatment claim anywhere.
 - [ ] `v1.0.0` tag points at the public snapshot commit.
 - [ ] The item is labelled a technical report draft, not a peer-reviewed preprint.
